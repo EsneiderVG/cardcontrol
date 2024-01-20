@@ -1,0 +1,51 @@
+:root {
+    --d: 700ms;
+    --e: cubic-bezier(0.19, 1, 0.22, 1);
+    --font-sans: poppins;
+    --font-serif: poppins;
+    --first-color: #4070F4;
+    --second-color: #0e1731;
+    --first-color-op: #144deb;
+    --second-color-op: #5378ea6d;
+    --color-named: #0E2431;
+    --color-white-cont: rgba(230, 230, 230, 0.472);
+}
+
+.button_save{
+    border: none;
+    background: var(--first-color-op);
+    color: white;
+    font-size: 28px;
+    padding: 15px 20px;
+    border-radius: 50%;
+}
+
+.button_save:hover{
+    background: var(--first-color);
+    transition: all 0.6s;
+    cursor:pointer;
+    border-radius: 50%;
+}
+
+.content_button_save{
+    width: 100%;
+}
+
+.btn_saved_2{
+    width:100%;
+    border: none;
+    background: var(--first-color-op);
+    color: white;
+    font-size: 16px;
+    font-family: poppins;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.btn_saved_2:hover{
+    cursor: pointer;
+    transition: all 0.6s;
+    background: var(--first-color);
+
+}
+
